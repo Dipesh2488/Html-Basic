@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+ .login-box{
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 15px;
+ }
+
+ .login-box h2{
+    text-align: center;
+    margin-bottom: 5px;
+    }
+
+ form{
+    display: flex;
+    flex-direction: column;
+    }
+
+ form label{
+    font-size: 20px;
+    margin-bottom: 5px;
+    }
+
+ form input{
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 5px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    }
+
+form button{
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    background-color:lightgreen;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+   }
+ form button:hover{
+    background-color:darkgreen;
+ }
